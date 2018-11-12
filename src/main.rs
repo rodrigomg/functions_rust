@@ -2,6 +2,7 @@ fn main() {
     another_function(90);
     mutiple_parameters(23,89.99);
     expression_sample();
+    println!("Value returned: {}", value_return());
 }
 
 fn another_function(x: i32) {
@@ -27,4 +28,8 @@ fn expression_sample() {
     };
 
     println!("The value of b is: {}", b);
+}
+
+fn value_return() -> i32 {
+    7
 }
